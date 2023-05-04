@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchJokeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/Aqua"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/searchOptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/option_fragment_textview"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/queryInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hint="@string/query_string_fragment_edittext"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/nsfwSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/nsfw_fragment_switch"
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Switch
+            android:id="@+id/politicalSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/political_fragment_switch"
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <Switch
+            android:id="@+id/explicitSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/explicit_fragment_switch"
+            android:textSize="20sp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/searchFragmentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"
+                android:backgroundTint="@color/Green"
+                android:gravity="center"
+                android:text="@string/search_fragment_button" />
+
+
+            <Button
+                android:id="@+id/cancelFragmentButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:backgroundTint="@color/DarkRed"
+                android:gravity="center"
+                android:text="@string/cancel_fragment_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

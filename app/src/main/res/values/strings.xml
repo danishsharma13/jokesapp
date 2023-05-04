@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Danish\'s Jokes App</string>
+    <string name="option_textview">Please click on the buttons below</string>
+    <string name="search_button">Search Jokes</string>
+    <string name="saved_button">Saved Jokes</string>
+    <string name="search_fragment_button">SEARCH</string>
+    <string name="cancel_fragment_button">CANCEL</string>
+    <string name="option_fragment_textview">Enter search query and select jokes option</string>
+    <string name="query_string_fragment_edittext">Insert Query-string</string>
+    <string name="nsfw_fragment_switch">NSFW</string>
+    <string name="political_fragment_switch">POLITICAL</string>
+    <string name="explicit_fragment_switch">EXPLICIT</string>
+    <string name="warning_textview">NOTE: The Jokes API can send some NSFW jokes even if some switches are not selected.</string>
+</resources>
